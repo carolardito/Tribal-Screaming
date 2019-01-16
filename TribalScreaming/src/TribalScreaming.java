@@ -14,8 +14,11 @@ public class TribalScreaming {
 		}
 		else {
 			finalResult = name + finalResult;
+			
+			if (name.equals(name.toUpperCase())) {
+				finalResult = finalResult.toUpperCase();
+			}
 		}
-		
 		
 		return finalResult;
 		
